@@ -1,4 +1,4 @@
-#PICU Aberration detection algorithm
+# PICU Aberration detection algorithm
 
 A separate algorithm was created for both the subgroup containing infants bearing an average SpO2 >90- and <90. Respectively, each algorithm may be found in the 'high-algorithm' and 'low-algorithm' files.
 

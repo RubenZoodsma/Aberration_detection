@@ -43,7 +43,7 @@ export_frame_test <- function(total_data, db_name){
 
 
 sql_connect <- function(){
-  result <- odbcConnect("PICURED", uid="picured", pwd = "G\\nF3pnt\\EM.W!^YMa7E")
+  result <- odbcConnect("PICURED", uid="**", pwd = "**")
   return(result)
 }
 

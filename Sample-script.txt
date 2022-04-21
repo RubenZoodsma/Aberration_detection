@@ -1,0 +1,6 @@
+Section	Presets
+Loadpreset	Ruben1
+EndSection	
+scriptArgument1	<document-name without extension, slashes or else>
+LoadScriptfile	<script file name, with extension .txt>
+

@@ -9,3 +9,4 @@ The 'functions'-file contains all functions needed for both the prediction- as w
 Included also are:
 - Readme + scripts for automated reading- and uploading of CFM files to a SQL database
 - Scripts for training of a one-class Support vector machine
+

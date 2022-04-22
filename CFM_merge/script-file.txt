@@ -1,0 +1,10 @@
+Section	Loadpatientfile
+Loadbrmfile	<brm file path with extension>
+EndSection
+
+Process	Mass Export
+Export name	<export file name, use scriptfileargument1 as filename, extension = .tsv>
+Export What	LF Container # Low-frequency container, adapt to HF if necessary for EEG
+Samplerate	1.0
+Start
+EndProcess

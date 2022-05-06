@@ -1,5 +1,12 @@
+#README
+In this script, data from separate NIRS-files are merged with data from the PICURED database.
+Separate NIRS-files may have different formats differing in output column-length.
+Currently, four known formats are included. Noteworthy: other formats may be known not included in this script.
+
+#END README
 library(RODBC)
 library(ggplot2)
+
 
 # -- create test-frame in order to get column-names
 frame_data <- sqlQuery(sql_connect(), "SELECT TOP (1) * FROM [PICURED].[dbo].[DATA]")
@@ -368,9 +375,3 @@ edit_frame <- function(main_set, data_name) {
   close(progress)
   return(main_set)
 }
-
-
-
-
-
-
